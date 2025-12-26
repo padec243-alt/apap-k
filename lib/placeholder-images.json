@@ -1,0 +1,166 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "African landscape at sunset",
+      "imageUrl": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhZnJpY2FuJTIwbGFuZHNjYXBlfGVufDB8fHx8MTc2MzIxNTc4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "african landscape"
+    },
+    {
+      "id": "project-water",
+      "description": "Children drinking clean water from a tap",
+      "imageUrl": "https://images.unsplash.com/photo-1574482620811-1aa16ffe3c82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMHdhdGVyfGVufDB8fHx8MTc2MzEzMjY0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean water"
+    },
+    {
+      "id": "project-agriculture",
+      "description": "Farmers working in a lush green field",
+      "imageUrl": "https://images.unsplash.com/photo-1744726010540-bf318d4a691f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhZnJpY2FuJTIwZmFybWluZ3xlbnwwfHx8fDE3NjMxOTk3OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "african farming"
+    },
+    {
+      "id": "project-woman",
+      "description": "A smiling woman holding handmade crafts",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019418-b400bb3ab074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhZnJpY2FuJTIwd29tYW58ZW58MHx8fHwxNzYzMTU2MTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "african woman"
+    },
+    {
+      "id": "artist-1",
+      "description": "Portrait of a male artist with a thoughtful expression",
+      "imageUrl": "https://images.unsplash.com/photo-1745165549821-7382d2e740d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcnRpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjMxNzU4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "artist portrait"
+    },
+    {
+      "id": "artist-2",
+      "description": "Portrait of a female artist smiling in her studio",
+      "imageUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzEwMjI2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "artist-3",
+      "description": "An artist passionately painting on a large canvas",
+      "imageUrl": "https://images.unsplash.com/photo-1613746203812-717e6e5db3da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcnRpc3QlMjBwYWludGluZ3xlbnwwfHx8fDE3NjMxOTg0ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "artist painting"
+    },
+    {
+      "id": "mission-lyon",
+      "description": "Diverse group of people in a cultural setting in Lyon",
+      "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbCUyMGV4Y2hhbmdlfGVufDB8fHx8MTc2NDA0NTg5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cultural exchange"
+    },
+    {
+      "id": "mission-kasai",
+      "description": "Rural development project in Congo",
+      "imageUrl": "https://images.unsplash.com/photo-1533603218943-81c4a4321434?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwY29tbXVuaXR5JTIwZGV2ZWxvcG1lbnR8ZW58MHx8fHwxNzY0MDQ1OTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "community development"
+    },
+    {
+      "id": "festival-ngoma",
+      "description": "Vibrant music and arts festival with an African theme",
+      "imageUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZmVzdGl2YWx8ZW58MHx8fHwxNzY0MDQ2MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "african festival"
+    },
+    {
+      "id": "history-2003",
+      "description": "Founding document",
+      "imageUrl": "https://images.unsplash.com/photo-1547908343-2ed9f02b9584?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkb2N1bWVudCUyMHNjcm9sbHxlbnwwfHx8fDE3NjY0ODIzNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "document scroll"
+    },
+    {
+      "id": "history-2004",
+      "description": "Map of Kasai",
+      "imageUrl": "https://images.unsplash.com/photo-1709226660708-38e861588890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXAlMjBjb25nb3xlbnwwfHx8fDE3NjY0ODIzNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "map congo"
+    },
+    {
+      "id": "history-2005",
+      "description": "Music group and farming",
+      "imageUrl": "https://images.unsplash.com/photo-1765729820101-065080ff93e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtdXNpYyUyMGZhcm1pbmd8ZW58MHx8fHwxNzY2NDgyMzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music farming"
+    },
+    {
+      "id": "history-2006",
+      "description": "Cultural event in Lyon",
+      "imageUrl": "https://images.unsplash.com/photo-1505428160878-8e349f4d301c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjdWx0dXJhbCUyMGV2ZW50fGVufDB8fHx8MTc2NjQ4MjM0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cultural event"
+    },
+    {
+      "id": "history-2007",
+      "description": "Group meeting",
+      "imageUrl": "https://images.unsplash.com/photo-1709715357520-5e1047a2b691?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fDE3NjY0Mjc2MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team meeting"
+    },
+    {
+      "id": "history-2008",
+      "description": "Handshake agreement",
+      "imageUrl": "https://images.unsplash.com/photo-1698047681820-f26b00b6c639?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYW5kc2hha2UlMjBhZ3JlZW1lbnR8ZW58MHx8fHwxNzY2NDU0NjAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handshake agreement"
+    },
+    {
+      "id": "history-2009",
+      "description": "Planning documents",
+      "imageUrl": "https://images.unsplash.com/photo-1721244653652-268631ec049a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibHVlcHJpbnRzJTIwcGxhbnxlbnwwfHx8fDE3NjY0ODIzNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blueprints plan"
+    },
+    {
+      "id": "history-2010",
+      "description": "Africa celebration",
+      "imageUrl": "https://images.unsplash.com/photo-1633116938154-de2b8637ba21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhZnJpY2ElMjBjZWxlYnJhdGlvbnxlbnwwfHx8fDE3NjY0ODIzNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "africa celebration"
+    },
+    {
+      "id": "history-2011",
+      "description": "Water and agriculture project",
+      "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXRlciUyMGFncmljdWx0dXJlfGVufDB8fHx8MTc2NjQ4MjM0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water agriculture"
+    },
+    {
+      "id": "history-2012",
+      "description": "Group of women",
+      "imageUrl": "https://images.unsplash.com/photo-1522543558187-768b6df7c25c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21lbiUyMGdyb3VwfGVufDB8fHx8MTc2NjQ2OTA1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women group"
+    },
+    {
+      "id": "history-2013",
+      "description": "10 year anniversary",
+      "imageUrl": "https://images.unsplash.com/photo-1533876080314-4ab7c6445ae9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhbm5pdmVyc2FyeSUyMGNlbGVicmF0aW9ufGVufDB8fHx8MTc2NjQ4MjM0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "anniversary celebration"
+    },
+    {
+      "id": "history-2015",
+      "description": "African festival",
+      "imageUrl": "https://images.unsplash.com/photo-1676156786479-46a5b1715f41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZmVzdGl2YWx8ZW58MHx8fHwxNzY2NDgyMzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "african festival"
+    },
+    {
+      "id": "history-2019",
+      "description": "Official meeting",
+      "imageUrl": "https://images.unsplash.com/photo-1713930517076-18a9fd284cfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvZmZpY2lhbCUyMG1lZXRpbmd8ZW58MHx8fHwxNzY2NDgyMzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "official meeting"
+    },
+    {
+      "id": "history-2021",
+      "description": "Award certificate",
+      "imageUrl": "https://images.unsplash.com/photo-1759560270562-468e8ba866e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhd2FyZCUyMGNlcnRpZmljYXRlfGVufDB8fHx8MTc2NjQ4MjM0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "award certificate"
+    },
+    {
+      "id": "history-2022",
+      "description": "Water pump",
+      "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3YXRlciUyMHB1bXB8ZW58MHx8fHwxNzY2NDMzMDY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water pump"
+    },
+    {
+      "id": "history-2024",
+      "description": "Gala event",
+      "imageUrl": "https://images.unsplash.com/photo-1679445211109-d9f3bdeb1fd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnYWxhJTIwZXZlbnR8ZW58MHx8fHwxNzY2NDA2NjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gala event"
+    },
+    {
+      "id": "history-2025",
+      "description": "Future plan blueprint",
+      "imageUrl": "https://images.unsplash.com/photo-1712697236422-cf48f06547f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmdXR1cmUlMjBwbGFufGVufDB8fHx8MTc2NjQ4MjM0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "future plan"
+    }
+  ]
+}
