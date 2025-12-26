@@ -30,39 +30,24 @@ import { Timeline } from '@/components/common/timeline';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 const bannerImages = [
-  // Photos bannière
-  '/baniere/DSC00288.JPG',
-  '/baniere/DSC00290.JPG',
-  '/baniere/DSC00305.JPG',
-  '/baniere/DSC00335.JPG',
-  '/baniere/DSC00337.JPG',
-  '/baniere/DSC00344.JPG',
-  '/baniere/DSC00354.JPG',
-  '/baniere/DSC00359.JPG',
-  '/baniere/DSC00363.JPG',
-  '/baniere/DSC00923.JPG',
-  '/baniere/DSC00927.JPG',
-  '/baniere/DSC00928.JPG',
-  '/baniere/DSC00929.JPG',
-  '/baniere/DSC00931.JPG',
-  '/baniere/DSC00937.JPG',
-  '/baniere/DSC00943.JPG',
-  '/baniere/DSC00945.JPG',
-  // Actions au Kasaï - Projet Eau Bakwa Bowa
-  '/activites/projet-eau-bakwa-bowa/70896936_10215673481252027_8021014664102019072_n.jpg',
-  '/activites/projet-eau-bakwa-bowa/81014989_10216577119442417_2156204488900214784_n.jpg',
-  '/activites/projet-eau-bakwa-bowa/IMG-20180702-WA0006.jpg',
-  // Actions au Kasaï - Projet Eau Mpasa
-  '/activites/projet-eau-mpasa/IMG_2581.JPG',
-  '/activites/projet-eau-mpasa/IMG_2648.JPG',
-  '/activites/projet-eau-mpasa/IMG_2775.JPG',
-  // Actions au Kasaï - Projet Eau Ngandajika
-  '/activites/projet-eau-ngandajika/Prospection__1_.JPG',
-  '/activites/projet-eau-ngandajika/Prospection__3_.JPG',
-  // Actions au Kasaï - Promotion Femme
-  '/activites/promotion-femme/DSCN0134_-_Copie.JPG',
-  '/activites/promotion-femme/DSCN0154.JPG',
-  '/activites/promotion-femme/DSCN0175.JPG',
+  // Photos bannière (hébergées sur Cloudinary)
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763710/apap-k/baniere/DSC00288.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763719/apap-k/baniere/DSC00290.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763734/apap-k/baniere/DSC00305.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763742/apap-k/baniere/DSC00335.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763756/apap-k/baniere/DSC00337.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763769/apap-k/baniere/DSC00344.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763779/apap-k/baniere/DSC00354.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763790/apap-k/baniere/DSC00359.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763800/apap-k/baniere/DSC00363.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763806/apap-k/baniere/DSC00923.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763815/apap-k/baniere/DSC00927.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763823/apap-k/baniere/DSC00928.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763829/apap-k/baniere/DSC00929.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763841/apap-k/baniere/DSC00931.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763860/apap-k/baniere/DSC00937.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763870/apap-k/baniere/DSC00943.jpg',
+  'https://res.cloudinary.com/dessrncgo/image/upload/v1766763879/apap-k/baniere/DSC00945.jpg',
 ];
 
 export default function Home() {
