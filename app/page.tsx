@@ -60,9 +60,9 @@ export default function Home() {
     return () => clearInterval(interval);
   }, []);
 
-  const missionLyonImage = '/activites/festival-ngoma/Ngomo___41_.JPG';
-  const missionKasaiImage = '/activites/projet-eau-bakwa-bowa/81014989_10216577119442417_2156204488900214784_n.jpg';
-  const festivalNgomaImage = '/activites/festival-ngoma/Ngomo___103_.JPG';
+  const missionLyonImage = 'https://res.cloudinary.com/dessrncgo/image/upload/v1766764867/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764867/apap-k/activites/festival-ngoma/Ngomo___41_.jpg';
+  const missionKasaiImage = 'https://res.cloudinary.com/dessrncgo/image/upload/v1766766509/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766509/apap-k/activites/projet-eau-bakwa-bowa/81014989_10216577119442417_2156204488900214784_n.jpg';
+  const festivalNgomaImage = 'https://res.cloudinary.com/dessrncgo/image/upload/v1766764526/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764526/apap-k/activites/festival-ngoma/Ngomo___103_.jpg';
 
 
   return (

@@ -14,11 +14,11 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "/activites/festival-ngoma/Ngomo___41_.JPG",
-      "/activites/festival-ngoma/Ngomo___103_.JPG",
-      "/activites/festival-ngoma/Ngomo___106_.JPG",
-      "/activites/festival-ngoma/Ngomo___108_.JPG",
-      "/activites/festival-ngoma/Ngomo___122_.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764867/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764867/apap-k/activites/festival-ngoma/Ngomo___41_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764526/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764526/apap-k/activites/festival-ngoma/Ngomo___103_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764555/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764555/apap-k/activites/festival-ngoma/Ngomo___106_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764637/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764637/apap-k/activites/festival-ngoma/Ngomo___108_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764669/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764669/apap-k/activites/festival-ngoma/Ngomo___122_.jpg",
     ],
   },
   {
@@ -29,9 +29,9 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "/activites/concerts-lissanga/IMG_7994.jpg",
-      "/activites/concerts-lissanga/IMG_8013.jpg",
-      "/activites/concerts-lissanga/DSCF0021.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764073/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764073/apap-k/activites/concerts-lissanga/IMG_7994.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764078/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764078/apap-k/activites/concerts-lissanga/IMG_8013.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764054/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764054/apap-k/activites/concerts-lissanga/DSCF0021.jpg",
     ],
   },
   {
@@ -42,10 +42,10 @@ const lyonData = [
     type: "activite",
     location: "Lyon & Région",
     images: [
-      "/activites/fontaines-sur-saone/DSC00288.JPG",
-      "/activites/fontaines-sur-saone/DSC00290.JPG",
-      "/activites/fontaines-sur-saone/DSC00305.JPG",
-      "/activites/fontaines-sur-saone/DSC00335.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765389/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765389/apap-k/activites/fontaines-sur-saone/DSC00288.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765413/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765413/apap-k/activites/fontaines-sur-saone/DSC00290.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765500/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765500/apap-k/activites/fontaines-sur-saone/DSC00305.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765599/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765599/apap-k/activites/fontaines-sur-saone/DSC00335.jpg",
     ],
   },
   {
@@ -56,9 +56,9 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "/activites/cosim/IMG_0981.JPG",
-      "/activites/cosim/IMG_0989.JPG",
-      "/activites/cosim/CAPITALISATION_PROJET_EAU.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764107/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764107/apap-k/activites/cosim/IMG_0981.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764115/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764115/apap-k/activites/cosim/IMG_0989.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764096/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764096/apap-k/activites/cosim/CAPITALISATION_PROJET_EAU.jpg",
     ],
   },
   {
@@ -69,8 +69,8 @@ const lyonData = [
     type: "activite",
     location: "France",
     images: [
-      "/activites/equipe-france/255161592_929852927955431_7690408250152233844_n__2_.jpg",
-      "/activites/equipe-france/274495524_999277264346330_3396681154913004412_n.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764228/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764228/apap-k/activites/equipe-france/255161592_929852927955431_7690408250152233844_n__2_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764232/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764232/apap-k/activites/equipe-france/274495524_999277264346330_3396681154913004412_n.jpg",
     ],
   },
   {
@@ -81,9 +81,9 @@ const lyonData = [
     type: "projet",
     location: "Lyon & RDC",
     images: [
-      "/activites/projet-odd/DSC00823.JPG",
-      "/activites/projet-odd/DSC00824.JPG",
-      "/activites/projet-odd/DSC00828.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766873/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766873/apap-k/activites/projet-odd/DSC00823.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767024/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767024/apap-k/activites/projet-odd/DSC00824.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767073/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767073/apap-k/activites/projet-odd/DSC00828.jpg",
     ],
   },
   {
@@ -94,8 +94,8 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "/activites/fontaines-sur-saone/DSC00923.JPG",
-      "/activites/fontaines-sur-saone/DSC00927.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765871/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765871/apap-k/activites/fontaines-sur-saone/DSC00923.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765907/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765907/apap-k/activites/fontaines-sur-saone/DSC00927.jpg",
     ],
   },
   {
@@ -106,8 +106,8 @@ const lyonData = [
     type: "activite",
     location: "Fontaines-sur-Saône",
     images: [
-      "/activites/fontaines-sur-saone/DSC00337.JPG",
-      "/activites/fontaines-sur-saone/DSC00344.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765656/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765656/apap-k/activites/fontaines-sur-saone/DSC00337.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765716/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765716/apap-k/activites/fontaines-sur-saone/DSC00344.jpg",
     ],
   },
   {
@@ -118,7 +118,7 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "/activites/projet-odd/DSC00830.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767131/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767131/apap-k/activites/projet-odd/DSC00830.jpg",
       "/activites/projet-odd/DSC00842.JPG",
     ],
   },
@@ -134,10 +134,10 @@ const rdcData = [
     type: "projet",
     location: "Bakwa Bowa, Kasaï Oriental",
     images: [
-      "/activites/projet-eau-bakwa-bowa/81014989_10216577119442417_2156204488900214784_n.jpg",
-      "/activites/projet-eau-bakwa-bowa/70896936_10215673481252027_8021014664102019072_n.jpg",
-      "/activites/projet-eau-bakwa-bowa/81038688_10216577122602496_982262817346289664_n.jpg",
-      "/activites/projet-eau-bakwa-bowa/IMG-20180630-WA0000.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766509/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766509/apap-k/activites/projet-eau-bakwa-bowa/81014989_10216577119442417_2156204488900214784_n.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766506/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766506/apap-k/activites/projet-eau-bakwa-bowa/70896936_10215673481252027_8021014664102019072_n.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766511/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766511/apap-k/activites/projet-eau-bakwa-bowa/81038688_10216577122602496_982262817346289664_n.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766523/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766523/apap-k/activites/projet-eau-bakwa-bowa/IMG-20180630-WA0000.jpg",
     ],
   },
   {
@@ -148,10 +148,10 @@ const rdcData = [
     type: "projet",
     location: "Mpasa, Kinshasa",
     images: [
-      "/activites/projet-eau-mpasa/IMG_2648.JPG",
-      "/activites/projet-eau-mpasa/IMG_2581.JPG",
-      "/activites/projet-eau-mpasa/IMG_2583.JPG",
-      "/activites/projet-eau-mpasa/IMG_2634.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766628/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766628/apap-k/activites/projet-eau-mpasa/IMG_2648.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766608/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766608/apap-k/activites/projet-eau-mpasa/IMG_2581.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766617/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766617/apap-k/activites/projet-eau-mpasa/IMG_2583.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766622/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766622/apap-k/activites/projet-eau-mpasa/IMG_2634.jpg",
     ],
   },
   {
@@ -162,9 +162,9 @@ const rdcData = [
     type: "projet",
     location: "Mpasa 2, Kinshasa",
     images: [
-      "/activites/projet-eau-mpasa/IMG_2681.JPG",
-      "/activites/projet-eau-mpasa/IMG_2775.JPG",
-      "/activites/projet-eau-mpasa/IMG_2776.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766634/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766634/apap-k/activites/projet-eau-mpasa/IMG_2681.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766645/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766645/apap-k/activites/projet-eau-mpasa/IMG_2775.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766654/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766654/apap-k/activites/projet-eau-mpasa/IMG_2776.jpg",
     ],
   },
   {
@@ -175,9 +175,9 @@ const rdcData = [
     type: "projet",
     location: "Ngandajika, Kasaï Oriental",
     images: [
-      "/activites/projet-eau-ngandajika/Prospection__1_.JPG",
-      "/activites/projet-eau-ngandajika/Prospection__2_.JPG",
-      "/activites/projet-eau-ngandajika/Prospection__3_.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766683/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766683/apap-k/activites/projet-eau-ngandajika/Prospection__1_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766702/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766702/apap-k/activites/projet-eau-ngandajika/Prospection__2_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766761/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766761/apap-k/activites/projet-eau-ngandajika/Prospection__3_.jpg",
     ],
   },
   {
@@ -188,9 +188,9 @@ const rdcData = [
     type: "projet",
     location: "Mbujimayi, Kasaï Oriental",
     images: [
-      "/activites/projet-solaire-mbujimayi/IMG_3425.JPG",
-      "/activites/projet-solaire-mbujimayi/IMG_Praosim2016_site_1.jpg",
-      "/activites/projet-solaire-mbujimayi/IMG_site_2.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767297/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767297/apap-k/activites/projet-solaire-mbujimayi/IMG_3425.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767299/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767299/apap-k/activites/projet-solaire-mbujimayi/IMG_Praosim2016_site_1.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767306/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767306/apap-k/activites/projet-solaire-mbujimayi/IMG_site_2.jpg",
     ],
   },
   {
@@ -201,10 +201,10 @@ const rdcData = [
     type: "projet",
     location: "Kasaï Oriental",
     images: [
-      "/activites/promotion-femme/DSCN0134_-_Copie.JPG",
-      "/activites/promotion-femme/DSCN0143_-_Copie.JPG",
-      "/activites/promotion-femme/DSCN0154.JPG",
-      "/activites/promotion-femme/DSCN0166.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767375/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767375/apap-k/activites/promotion-femme/DSCN0134_-_Copie.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767425/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767425/apap-k/activites/promotion-femme/DSCN0143_-_Copie.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767452/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767452/apap-k/activites/promotion-femme/DSCN0154.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767483/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767483/apap-k/activites/promotion-femme/DSCN0166.jpg",
     ],
   },
   {
@@ -215,9 +215,9 @@ const rdcData = [
     type: "projet",
     location: "Kasaï Oriental",
     images: [
-      "/activites/promotion-femme/DSCN0175.JPG",
-      "/activites/promotion-femme/DSCN0575.JPG",
-      "/activites/promotion-femme/DSCN0578.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767512/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767512/apap-k/activites/promotion-femme/DSCN0175.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767534/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767534/apap-k/activites/promotion-femme/DSCN0575.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767537/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767537/apap-k/activites/promotion-femme/DSCN0578.jpg",
     ],
   },
   {
@@ -228,9 +228,9 @@ const rdcData = [
     type: "projet",
     location: "Kinshasa & Mbuji-Mayi",
     images: [
-      "/activites/centre-dentaire-kinshasa/IMG_1175.JPG",
-      "/activites/centre-dentaire-kinshasa/IMG_1180.JPG",
-      "/activites/centre-dentaire-kinshasa/IMG_1183.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764034/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764034/apap-k/activites/centre-dentaire-kinshasa/IMG_1175.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764036/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764036/apap-k/activites/centre-dentaire-kinshasa/IMG_1180.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764039/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764039/apap-k/activites/centre-dentaire-kinshasa/IMG_1183.jpg",
     ],
   },
   {
@@ -241,8 +241,8 @@ const rdcData = [
     type: "projet",
     location: "Makasa, Kasaï Oriental",
     images: [
-      "/activites/missions/Prospection__1_.JPG",
-      "/activites/missions/Prospection__3_.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766462/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766462/apap-k/activites/missions/Prospection__1_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766497/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766497/apap-k/activites/missions/Prospection__3_.jpg",
     ],
   },
   {
@@ -253,10 +253,10 @@ const rdcData = [
     type: "activite",
     location: "Mbuji-Mayi, RDC",
     images: [
-      "/activites/equipe-mbujimayi/DSCN0117.JPG",
-      "/activites/equipe-mbujimayi/IMG-20180718-WA0000.jpg",
-      "/activites/equipe-mbujimayi/IMG-20180718-WA0001.jpg",
-      "/activites/equipe-mbujimayi/ONFD6224.JPG",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764464/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764464/apap-k/activites/equipe-mbujimayi/DSCN0117.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764466/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764466/apap-k/activites/equipe-mbujimayi/IMG-20180718-WA0000.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764468/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764468/apap-k/activites/equipe-mbujimayi/IMG-20180718-WA0001.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764474/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764474/apap-k/activites/equipe-mbujimayi/ONFD6224.jpg",
     ],
   },
   {
@@ -267,9 +267,9 @@ const rdcData = [
     type: "activite",
     location: "Makasa-Bondo, Kasaï",
     images: [
-      "/activites/projet-odd/DSC00852.JPG",
-      "/activites/projet-odd/IMG_0071.jpg",
-      "/activites/projet-odd/IMG_0073.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767195/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767195/apap-k/activites/projet-odd/DSC00852.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767252/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767252/apap-k/activites/projet-odd/IMG_0071.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767254/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767254/apap-k/activites/projet-odd/IMG_0073.jpg",
     ],
   },
 ];
