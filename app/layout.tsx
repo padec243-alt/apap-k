@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/common/header';
 import { Footer } from '@/components/common/footer';
+import { CookieConsent } from '@/components/common/cookie-consent';
 import { Montserrat, Roboto } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import { Preloader } from '@/components/common/preloader';
@@ -39,6 +40,7 @@ export default function RootLayout({
           <main className="flex-grow">{children}</main>
           <Footer />
         </div>
+        <CookieConsent />
         <Toaster />
       </body>
     </html>
