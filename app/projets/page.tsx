@@ -14,11 +14,11 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764867/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764867/apap-k/activites/festival-ngoma/Ngomo___41_.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764526/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764526/apap-k/activites/festival-ngoma/Ngomo___103_.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764555/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764555/apap-k/activites/festival-ngoma/Ngomo___106_.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764637/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764637/apap-k/activites/festival-ngoma/Ngomo___108_.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764669/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764669/apap-k/activites/festival-ngoma/Ngomo___122_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764867/apap-k/activites/festival-ngoma/Ngomo___41_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764526/apap-k/activites/festival-ngoma/Ngomo___103_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764555/apap-k/activites/festival-ngoma/Ngomo___106_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764637/apap-k/activites/festival-ngoma/Ngomo___108_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764669/apap-k/activites/festival-ngoma/Ngomo___122_.jpg",
     ],
   },
   {
@@ -29,9 +29,9 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764073/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764073/apap-k/activites/concerts-lissanga/IMG_7994.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764078/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764078/apap-k/activites/concerts-lissanga/IMG_8013.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764054/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764054/apap-k/activites/concerts-lissanga/DSCF0021.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764073/apap-k/activites/concerts-lissanga/IMG_7994.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764078/apap-k/activites/concerts-lissanga/IMG_8013.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764054/apap-k/activites/concerts-lissanga/DSCF0021.jpg",
     ],
   },
   {
@@ -42,10 +42,10 @@ const lyonData = [
     type: "activite",
     location: "Lyon & Région",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765389/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765389/apap-k/activites/fontaines-sur-saone/DSC00288.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765413/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765413/apap-k/activites/fontaines-sur-saone/DSC00290.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765500/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765500/apap-k/activites/fontaines-sur-saone/DSC00305.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765599/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765599/apap-k/activites/fontaines-sur-saone/DSC00335.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765389/apap-k/activites/fontaines-sur-saone/DSC00288.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765413/apap-k/activites/fontaines-sur-saone/DSC00290.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765500/apap-k/activites/fontaines-sur-saone/DSC00305.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765599/apap-k/activites/fontaines-sur-saone/DSC00335.jpg",
     ],
   },
   {
@@ -56,9 +56,9 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764107/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764107/apap-k/activites/cosim/IMG_0981.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764115/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764115/apap-k/activites/cosim/IMG_0989.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764096/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764096/apap-k/activites/cosim/CAPITALISATION_PROJET_EAU.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764107/apap-k/activites/cosim/IMG_0981.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764115/apap-k/activites/cosim/IMG_0989.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764096/apap-k/activites/cosim/CAPITALISATION_PROJET_EAU.jpg",
     ],
   },
   {
@@ -69,8 +69,8 @@ const lyonData = [
     type: "activite",
     location: "France",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764228/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764228/apap-k/activites/equipe-france/255161592_929852927955431_7690408250152233844_n__2_.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764232/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764232/apap-k/activites/equipe-france/274495524_999277264346330_3396681154913004412_n.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764228/apap-k/activites/equipe-france/255161592_929852927955431_7690408250152233844_n__2_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764232/apap-k/activites/equipe-france/274495524_999277264346330_3396681154913004412_n.jpg",
     ],
   },
   {
@@ -81,9 +81,9 @@ const lyonData = [
     type: "projet",
     location: "Lyon & RDC",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766873/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766873/apap-k/activites/projet-odd/DSC00823.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767024/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767024/apap-k/activites/projet-odd/DSC00824.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767073/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767073/apap-k/activites/projet-odd/DSC00828.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766873/apap-k/activites/projet-odd/DSC00823.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767024/apap-k/activites/projet-odd/DSC00824.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767073/apap-k/activites/projet-odd/DSC00828.jpg",
     ],
   },
   {
@@ -94,8 +94,8 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765871/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765871/apap-k/activites/fontaines-sur-saone/DSC00923.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765907/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765907/apap-k/activites/fontaines-sur-saone/DSC00927.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765871/apap-k/activites/fontaines-sur-saone/DSC00923.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765907/apap-k/activites/fontaines-sur-saone/DSC00927.jpg",
     ],
   },
   {
@@ -106,8 +106,8 @@ const lyonData = [
     type: "activite",
     location: "Fontaines-sur-Saône",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765656/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765656/apap-k/activites/fontaines-sur-saone/DSC00337.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765716/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766765716/apap-k/activites/fontaines-sur-saone/DSC00344.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765656/apap-k/activites/fontaines-sur-saone/DSC00337.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766765716/apap-k/activites/fontaines-sur-saone/DSC00344.jpg",
     ],
   },
   {
@@ -118,7 +118,7 @@ const lyonData = [
     type: "activite",
     location: "Lyon, France",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767131/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767131/apap-k/activites/projet-odd/DSC00830.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767131/apap-k/activites/projet-odd/DSC00830.jpg",
       "/activites/projet-odd/DSC00842.JPG",
     ],
   },
@@ -134,10 +134,10 @@ const rdcData = [
     type: "projet",
     location: "Bakwa Bowa, Kasaï Oriental",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766509/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766509/apap-k/activites/projet-eau-bakwa-bowa/81014989_10216577119442417_2156204488900214784_n.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766506/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766506/apap-k/activites/projet-eau-bakwa-bowa/70896936_10215673481252027_8021014664102019072_n.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766511/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766511/apap-k/activites/projet-eau-bakwa-bowa/81038688_10216577122602496_982262817346289664_n.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766523/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766523/apap-k/activites/projet-eau-bakwa-bowa/IMG-20180630-WA0000.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766509/apap-k/activites/projet-eau-bakwa-bowa/81014989_10216577119442417_2156204488900214784_n.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766506/apap-k/activites/projet-eau-bakwa-bowa/70896936_10215673481252027_8021014664102019072_n.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766511/apap-k/activites/projet-eau-bakwa-bowa/81038688_10216577122602496_982262817346289664_n.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766523/apap-k/activites/projet-eau-bakwa-bowa/IMG-20180630-WA0000.jpg",
     ],
   },
   {
@@ -148,10 +148,10 @@ const rdcData = [
     type: "projet",
     location: "Mpasa, Kinshasa",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766628/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766628/apap-k/activites/projet-eau-mpasa/IMG_2648.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766608/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766608/apap-k/activites/projet-eau-mpasa/IMG_2581.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766617/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766617/apap-k/activites/projet-eau-mpasa/IMG_2583.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766622/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766622/apap-k/activites/projet-eau-mpasa/IMG_2634.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766628/apap-k/activites/projet-eau-mpasa/IMG_2648.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766608/apap-k/activites/projet-eau-mpasa/IMG_2581.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766617/apap-k/activites/projet-eau-mpasa/IMG_2583.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766622/apap-k/activites/projet-eau-mpasa/IMG_2634.jpg",
     ],
   },
   {
@@ -162,9 +162,9 @@ const rdcData = [
     type: "projet",
     location: "Mpasa 2, Kinshasa",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766634/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766634/apap-k/activites/projet-eau-mpasa/IMG_2681.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766645/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766645/apap-k/activites/projet-eau-mpasa/IMG_2775.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766654/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766654/apap-k/activites/projet-eau-mpasa/IMG_2776.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766634/apap-k/activites/projet-eau-mpasa/IMG_2681.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766645/apap-k/activites/projet-eau-mpasa/IMG_2775.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766654/apap-k/activites/projet-eau-mpasa/IMG_2776.jpg",
     ],
   },
   {
@@ -175,9 +175,9 @@ const rdcData = [
     type: "projet",
     location: "Ngandajika, Kasaï Oriental",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766683/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766683/apap-k/activites/projet-eau-ngandajika/Prospection__1_.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766702/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766702/apap-k/activites/projet-eau-ngandajika/Prospection__2_.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766761/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766761/apap-k/activites/projet-eau-ngandajika/Prospection__3_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766683/apap-k/activites/projet-eau-ngandajika/Prospection__1_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766702/apap-k/activites/projet-eau-ngandajika/Prospection__2_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766761/apap-k/activites/projet-eau-ngandajika/Prospection__3_.jpg",
     ],
   },
   {
@@ -188,9 +188,9 @@ const rdcData = [
     type: "projet",
     location: "Mbujimayi, Kasaï Oriental",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767297/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767297/apap-k/activites/projet-solaire-mbujimayi/IMG_3425.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767299/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767299/apap-k/activites/projet-solaire-mbujimayi/IMG_Praosim2016_site_1.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767306/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767306/apap-k/activites/projet-solaire-mbujimayi/IMG_site_2.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767297/apap-k/activites/projet-solaire-mbujimayi/IMG_3425.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767299/apap-k/activites/projet-solaire-mbujimayi/IMG_Praosim2016_site_1.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767306/apap-k/activites/projet-solaire-mbujimayi/IMG_site_2.jpg",
     ],
   },
   {
@@ -201,10 +201,10 @@ const rdcData = [
     type: "projet",
     location: "Kasaï Oriental",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767375/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767375/apap-k/activites/promotion-femme/DSCN0134_-_Copie.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767425/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767425/apap-k/activites/promotion-femme/DSCN0143_-_Copie.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767452/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767452/apap-k/activites/promotion-femme/DSCN0154.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767483/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767483/apap-k/activites/promotion-femme/DSCN0166.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767375/apap-k/activites/promotion-femme/DSCN0134_-_Copie.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767425/apap-k/activites/promotion-femme/DSCN0143_-_Copie.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767452/apap-k/activites/promotion-femme/DSCN0154.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767483/apap-k/activites/promotion-femme/DSCN0166.jpg",
     ],
   },
   {
@@ -215,9 +215,9 @@ const rdcData = [
     type: "projet",
     location: "Kasaï Oriental",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767512/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767512/apap-k/activites/promotion-femme/DSCN0175.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767534/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767534/apap-k/activites/promotion-femme/DSCN0575.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767537/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767537/apap-k/activites/promotion-femme/DSCN0578.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767512/apap-k/activites/promotion-femme/DSCN0175.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767534/apap-k/activites/promotion-femme/DSCN0575.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767537/apap-k/activites/promotion-femme/DSCN0578.jpg",
     ],
   },
   {
@@ -228,9 +228,9 @@ const rdcData = [
     type: "projet",
     location: "Kinshasa & Mbuji-Mayi",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764034/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764034/apap-k/activites/centre-dentaire-kinshasa/IMG_1175.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764036/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764036/apap-k/activites/centre-dentaire-kinshasa/IMG_1180.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764039/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764039/apap-k/activites/centre-dentaire-kinshasa/IMG_1183.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764034/apap-k/activites/centre-dentaire-kinshasa/IMG_1175.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764036/apap-k/activites/centre-dentaire-kinshasa/IMG_1180.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764039/apap-k/activites/centre-dentaire-kinshasa/IMG_1183.jpg",
     ],
   },
   {
@@ -241,8 +241,8 @@ const rdcData = [
     type: "projet",
     location: "Makasa, Kasaï Oriental",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766462/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766462/apap-k/activites/missions/Prospection__1_.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766497/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766766497/apap-k/activites/missions/Prospection__3_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766462/apap-k/activites/missions/Prospection__1_.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766766497/apap-k/activites/missions/Prospection__3_.jpg",
     ],
   },
   {
@@ -253,10 +253,10 @@ const rdcData = [
     type: "activite",
     location: "Mbuji-Mayi, RDC",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764464/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764464/apap-k/activites/equipe-mbujimayi/DSCN0117.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764466/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764466/apap-k/activites/equipe-mbujimayi/IMG-20180718-WA0000.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764468/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764468/apap-k/activites/equipe-mbujimayi/IMG-20180718-WA0001.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764474/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766764474/apap-k/activites/equipe-mbujimayi/ONFD6224.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764464/apap-k/activites/equipe-mbujimayi/DSCN0117.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764466/apap-k/activites/equipe-mbujimayi/IMG-20180718-WA0000.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764468/apap-k/activites/equipe-mbujimayi/IMG-20180718-WA0001.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766764474/apap-k/activites/equipe-mbujimayi/ONFD6224.jpg",
     ],
   },
   {
@@ -267,9 +267,9 @@ const rdcData = [
     type: "activite",
     location: "Makasa-Bondo, Kasaï",
     images: [
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767195/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767195/apap-k/activites/projet-odd/DSC00852.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767252/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767252/apap-k/activites/projet-odd/IMG_0071.jpg",
-      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767254/apap-khttps://res.cloudinary.com/dessrncgo/image/upload/v1766767254/apap-k/activites/projet-odd/IMG_0073.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767195/apap-k/activites/projet-odd/DSC00852.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767252/apap-k/activites/projet-odd/IMG_0071.jpg",
+      "https://res.cloudinary.com/dessrncgo/image/upload/v1766767254/apap-k/activites/projet-odd/IMG_0073.jpg",
     ],
   },
 ];
@@ -331,30 +331,30 @@ function ImageCarousel({ images, title }: { images: string[]; title: string }) {
         <>
           <button
             onClick={() => setCurrent((prev) => (prev - 1 + images.length) % images.length)}
-            className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-lg"
+            className="absolute left-1 sm:left-2 top-1/2 -translate-y-1/2 w-6 h-6 sm:w-8 sm:h-8 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-lg"
           >
-            <ChevronLeft className="h-4 w-4 text-gray-800" />
+            <ChevronLeft className="h-3 w-3 sm:h-4 sm:w-4 text-gray-800" />
           </button>
           <button
             onClick={() => setCurrent((prev) => (prev + 1) % images.length)}
-            className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-lg"
+            className="absolute right-1 sm:right-2 top-1/2 -translate-y-1/2 w-6 h-6 sm:w-8 sm:h-8 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-lg"
           >
-            <ChevronRight className="h-4 w-4 text-gray-800" />
+            <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4 text-gray-800" />
           </button>
 
-          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
+          <div className="absolute bottom-2 sm:bottom-3 left-1/2 -translate-x-1/2 flex gap-1">
             {images.map((_, idx) => (
               <button
                 key={idx}
                 onClick={() => setCurrent(idx)}
-                className={`h-1.5 rounded-full transition-all ${
-                  idx === current ? 'bg-white w-6' : 'bg-white/50 w-1.5'
+                className={`h-1 sm:h-1.5 rounded-full transition-all ${
+                  idx === current ? 'bg-white w-4 sm:w-6' : 'bg-white/50 w-1 sm:w-1.5'
                 }`}
               />
             ))}
           </div>
 
-          <div className="absolute top-3 right-3 px-2 py-1 bg-black/60 rounded-full text-white text-xs font-medium">
+          <div className="absolute top-2 sm:top-3 right-2 sm:right-3 px-1.5 sm:px-2 py-0.5 sm:py-1 bg-black/60 rounded-full text-white text-xs font-medium">
             {current + 1}/{images.length}
           </div>
         </>
@@ -396,13 +396,14 @@ function ProjectCard({ item }: { item: typeof lyonData[0] }) {
     >
       <ImageCarousel images={item.images} title={item.title} />
       
-      <div className="p-4">
-        <div className="flex items-center gap-2 mb-3">
-          <span className={`${colorClass} text-white px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1`}>
+      <div className="p-3 sm:p-4">
+        <div className="flex items-center gap-2 mb-2 sm:mb-3 flex-wrap">
+          <span className={`${colorClass} text-white px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs font-semibold flex items-center gap-1`}>
             <Icon className="h-3 w-3" />
-            {item.category}
+            <span className="hidden sm:inline">{item.category}</span>
+            <span className="sm:hidden">{item.category.substring(0, 3)}</span>
           </span>
-          <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+          <span className={`px-2 py-0.5 sm:py-1 rounded-full text-xs font-medium ${
             item.type === 'projet' 
               ? 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400' 
               : 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
@@ -411,24 +412,24 @@ function ProjectCard({ item }: { item: typeof lyonData[0] }) {
           </span>
         </div>
 
-        <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
+        <h3 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-2">
           {item.title}
         </h3>
 
-        <div className="flex items-center gap-1 text-gray-500 text-sm mb-3">
-          <MapPin className="h-4 w-4" />
-          <span>{item.location}</span>
+        <div className="flex items-center gap-1 text-gray-500 text-xs sm:text-sm mb-2 sm:mb-3">
+          <MapPin className="h-3 w-3 sm:h-4 sm:w-4" />
+          <span className="line-clamp-1">{item.location}</span>
         </div>
 
-        <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed line-clamp-3">
+        <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm leading-relaxed line-clamp-3">
           {item.description}
         </p>
 
-        <div className="mt-4 pt-3 border-t border-gray-100 dark:border-gray-800 flex items-center justify-between">
+        <div className="mt-3 sm:mt-4 pt-2 sm:pt-3 border-t border-gray-100 dark:border-gray-800 flex items-center justify-between">
           <span className="text-xs text-gray-400">{item.images.length} photos</span>
           <button 
             onClick={handleShare}
-            className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
+            className="p-1.5 sm:p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
             title="Partager"
           >
             <Share2 className="h-4 w-4 text-gray-500" />
@@ -455,17 +456,17 @@ function Section({ title, subtitle, data, gradient }: {
   const activityCount = data.filter(d => d.type === 'activite').length;
 
   return (
-    <section className="py-12">
+    <section className="py-6 sm:py-8 md:py-12">
       {/* Section Header */}
-      <div className="bg-white dark:bg-gray-800 rounded-3xl p-8 mb-8 shadow-lg border border-gray-100 dark:border-gray-700">
-        <h2 className="text-3xl font-bold mb-2 text-green-600">{title}</h2>
-        <p className="text-gray-600 dark:text-gray-400 mb-6">{subtitle}</p>
+      <div className="bg-white dark:bg-gray-800 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 mb-6 sm:mb-8 shadow-lg border border-gray-100 dark:border-gray-700">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 text-green-600">{title}</h2>
+        <p className="text-xs sm:text-sm md:text-base text-gray-600 dark:text-gray-400 mb-4 sm:mb-6">{subtitle}</p>
         
         {/* Filter Buttons */}
         <div className="flex flex-wrap gap-2">
           <button
             onClick={() => setFilter('all')}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+            className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${
               filter === 'all' 
                 ? 'bg-green-600 text-white' 
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
@@ -475,7 +476,7 @@ function Section({ title, subtitle, data, gradient }: {
           </button>
           <button
             onClick={() => setFilter('projet')}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+            className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${
               filter === 'projet' 
                 ? 'bg-green-600 text-white' 
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
@@ -485,7 +486,7 @@ function Section({ title, subtitle, data, gradient }: {
           </button>
           <button
             onClick={() => setFilter('activite')}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+            className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${
               filter === 'activite' 
                 ? 'bg-green-600 text-white' 
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
@@ -497,7 +498,7 @@ function Section({ title, subtitle, data, gradient }: {
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         <AnimatePresence mode="popLayout">
           {filteredData.map((item) => (
             <ProjectCard key={item.id} item={item} />
@@ -514,7 +515,7 @@ export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       {/* Hero */}
-      <div className="relative py-20 overflow-hidden">
+      <div className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/2KK.png')" }}
@@ -524,7 +525,7 @@ export default function ProjectsPage() {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-bold mb-4 text-white"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-white"
           >
             Nos Projets & Activités
           </motion.h1>
@@ -532,7 +533,7 @@ export default function ProjectsPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-lg text-white/90 max-w-2xl mx-auto"
+            className="text-sm sm:text-base md:text-lg text-white/90 max-w-2xl mx-auto"
           >
             Découvrez nos actions à Lyon et en RD Congo : culture, développement, solidarité.
           </motion.p>
@@ -545,7 +546,7 @@ export default function ProjectsPage() {
           <div className="flex">
             <button
               onClick={() => setActiveTab('lyon')}
-              className={`flex-1 py-4 text-center font-semibold transition-all relative ${
+              className={`flex-1 py-3 sm:py-4 text-center font-semibold transition-all relative text-sm sm:text-base ${
                 activeTab === 'lyon' 
                   ? 'text-primary' 
                   : 'text-gray-500 hover:text-gray-700'
@@ -561,7 +562,7 @@ export default function ProjectsPage() {
             </button>
             <button
               onClick={() => setActiveTab('rdc')}
-              className={`flex-1 py-4 text-center font-semibold transition-all relative ${
+              className={`flex-1 py-3 sm:py-4 text-center font-semibold transition-all relative text-sm sm:text-base ${
                 activeTab === 'rdc' 
                   ? 'text-primary' 
                   : 'text-gray-500 hover:text-gray-700'
