@@ -1,14 +1,22 @@
 'use client';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import Image from 'next/image';
 
-import type { ImagePlaceholder } from '@/lib/placeholder-images';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+// Vos images Cloudinary
+const timelineImages = [
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766764867/apap-k/activites/festival-ngoma/Ngomo___41_.jpg",
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766764526/apap-k/activites/festival-ngoma/Ngomo___103_.jpg",
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766766509/apap-k/activites/projet-eau-bakwa-bowa/81014989_10216577119442417_2156204488900214784_n.jpg",
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766766628/apap-k/activites/projet-eau-mpasa/IMG_2648.jpg",
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766767297/apap-k/activites/projet-solaire-mbujimayi/IMG_3425.jpg",
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766767375/apap-k/activites/promotion-femme/DSCN0134_-_Copie.jpg",
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766764073/apap-k/activites/concerts-lissanga/IMG_7994.jpg",
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766765389/apap-k/activites/fontaines-sur-saone/DSC00288.jpg",
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766764107/apap-k/activites/cosim/IMG_0981.jpg",
+  "https://res.cloudinary.com/dessrncgo/image/upload/v1766766462/apap-k/activites/missions/Prospection__1_.jpg",
+];
 
 interface TimelineItemProps {
   year: number;
@@ -22,125 +30,162 @@ interface TimelineProps {
 }
 
 export function Timeline({ items }: TimelineProps) {
-  const sortedItems = useMemo(() => [...items].sort((a, b) => a.year - b.year), [items]);
+  const sortedItems = useMemo(() => [...items].sort((a, b) => b.year - a.year), [items]);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
-  const radius = 380; // rayon inchangé
-  const itemSize = 80;
+  // Défilement automatique toutes les 5 secondes
+  useEffect(() => {
+    if (!isAutoPlaying) return;
+    
+    const interval = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % sortedItems.length);
+    }, 5000);
+    
+    return () => clearInterval(interval);
+  }, [isAutoPlaying, sortedItems.length]);
 
   const handlePrev = () => {
+    setIsAutoPlaying(false);
     setActiveIndex((prev) => (prev - 1 + sortedItems.length) % sortedItems.length);
   };
 
   const handleNext = () => {
+    setIsAutoPlaying(false);
     setActiveIndex((prev) => (prev + 1) % sortedItems.length);
   };
 
+  const handleDotClick = (idx: number) => {
+    setIsAutoPlaying(false);
+    setActiveIndex(idx);
+  };
+
   const activeItem = sortedItems[activeIndex];
-  const activeItemImage = PlaceHolderImages.find((img) => img.id === activeItem.imageId);
+  
+  // Images qui changent avec l'index
+  const leftImageIndex = (activeIndex * 2) % timelineImages.length;
+  const rightImageIndex = (activeIndex * 2 + 1) % timelineImages.length;
+  const leftImage = timelineImages[leftImageIndex];
+  const rightImage = timelineImages[rightImageIndex];
 
-  // For the four images around the circle
-  const imageIds = ["ngandajika-2013", "femme-kasaienne", "bj-2016-etude-eau", "ngoma-2016"];
-  const fourImages = PlaceHolderImages.filter(img => imageIds.includes(img.id));
-
+  // Animation de droite à gauche
+  const slideVariants = {
+    enter: { x: 50, opacity: 0 },
+    center: { x: 0, opacity: 1 },
+    exit: { x: -50, opacity: 0 }
+  };
 
   return (
-    <div className="relative mt-12 w-full max-w-6xl mx-auto py-8 flex flex-col items-center justify-center min-h-[700px]">
-      <div className="relative h-[600px] w-[600px]">
-
-        {/* Central Display Card */}
+    <div 
+      className="mt-6 sm:mt-8 w-full max-w-2xl mx-auto px-4"
+      onMouseEnter={() => setIsAutoPlaying(false)}
+      onMouseLeave={() => setIsAutoPlaying(true)}
+    >
+      <div className="flex items-center justify-center gap-3 sm:gap-6 md:gap-8">
+        
+        {/* Image gauche cercle */}
         <AnimatePresence mode="wait">
           <motion.div
-            key={activeItem.year}
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            exit={{ scale: 0.8, opacity: 0 }}
-            transition={{ duration: 0.5, type: 'spring' }}
-            className="absolute top-1/2 left-[38%] -translate-x-1/2 -translate-y-1/2 z-20"
+            key={`left-${activeIndex}`}
+            variants={slideVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{ duration: 0.3 }}
+            className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full overflow-hidden border-2 border-primary/30 shadow-md flex-shrink-0"
           >
-            <Card className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl border-4 border-primary flex flex-col justify-center items-center">
-              <CardHeader className="p-0 bg-background/80 backdrop-blur-sm flex flex-col items-center justify-center">
-                 <CardTitle className="font-headline text-xl md:text-2xl font-bold text-accent text-center">{activeItem.year}</CardTitle>
-              </CardHeader>
-              <CardContent className="p-0 text-center flex flex-col items-center justify-center h-full">
-                <p className="mt-1 text-base md:text-xl font-semibold text-primary">{activeItem.title}</p>
-                <p className="mt-2 text-sm md:text-lg text-muted-foreground line-clamp-3">{activeItem.details.join(' ')}</p>
-              </CardContent>
-            </Card>
+            <img
+              src={leftImage}
+              alt="Histoire APAP-K"
+              className="w-full h-full object-cover"
+            />
           </motion.div>
         </AnimatePresence>
-        
-        {/* Orbiting Year Items */}
-        {sortedItems.map((item, index) => {
-          const angle = (index / sortedItems.length) * 2 * Math.PI - (Math.PI / 2);
-          const x = Math.cos(angle) * radius;
-          const y = Math.sin(angle) * radius;
 
-          return (
-            <motion.div
-              key={item.year}
-              initial={{ x: 0, y: 0, scale: 0.8, opacity: 0.6 }}
-              animate={{
-                x: x,
-                y: y,
-                scale: index === activeIndex ? 1.2 : 0.9,
-                opacity: index === activeIndex ? 1 : 0.7,
-                zIndex: index === activeIndex ? 15 : 10,
-              }}
-              transition={{ type: 'spring', stiffness: 200, damping: 20 }}
-              className="absolute top-1/2 left-1/2 flex items-center justify-center rounded-full border-2 border-primary/50 bg-background shadow-md overflow-hidden cursor-pointer"
-              style={{
-                width: itemSize,
-                height: itemSize,
-                transform: `translate(-50%, -50%)`,
-              }}
-              onClick={() => setActiveIndex(index)}
+        {/* Contenu central */}
+        <div className="flex flex-col items-center flex-1 max-w-xs">
+          
+          {/* Année et navigation */}
+          <div className="flex items-center gap-3 sm:gap-4 mb-2 sm:mb-3">
+            <button 
+              onClick={handlePrev} 
+              className="p-1 sm:p-1.5 rounded-full hover:bg-muted transition-colors"
             >
-              <div className="text-center">
-                <div className="font-bold text-lg">{item.year}</div>
-              </div>
-            </motion.div>
-          );
-        })}
-
-        {/* Four images around the circle */}
-        {fourImages.map((image, index) => {
-          const angle = (index / 4) * 2 * Math.PI;
-          const imageRadius = radius + 100;
-          const x = Math.cos(angle) * imageRadius;
-          const y = Math.sin(angle) * imageRadius;
-          return (
-            <motion.div
-                key={image.id}
-                animate={{ x: x, y: y, }}
-                transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-                className="absolute top-1/2 left-1/2 rounded-full overflow-hidden shadow-lg border-2 border-secondary cursor-pointer"
-                 style={{
-                  width: '100px',
-                  height: '100px',
-                  transform: `translate(-50%, -50%)`,
-                }}
+              <ChevronLeft className="h-4 w-4 text-muted-foreground" />
+            </button>
+            
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={activeItem.year}
+                variants={slideVariants}
+                initial="enter"
+                animate="center"
+                exit="exit"
+                transition={{ duration: 0.3 }}
+                className="text-center"
+              >
+                <span className="text-xl sm:text-2xl md:text-3xl font-bold text-accent">{activeItem.year}</span>
+              </motion.div>
+            </AnimatePresence>
+            
+            <button 
+              onClick={handleNext} 
+              className="p-1 sm:p-1.5 rounded-full hover:bg-muted transition-colors"
             >
-                <Image
-                    src={image.imageUrl}
-                    alt={image.id}
-                    fill
-                    className="object-cover"
-                />
-            </motion.div>
-          );
-        })}
+              <ChevronRight className="h-4 w-4 text-muted-foreground" />
+            </button>
+          </div>
 
-      </div>
-      
-      {/* Navigation Buttons */}
-      <div className="w-full flex items-center justify-center mt-8 space-x-4 z-30" style={{transform: 'translateX(34px)'}}>
-        <Button onClick={handlePrev} variant="outline" size="icon" className="rounded-full">
-          <ChevronLeft className="h-6 w-6" />
-        </Button>
-        <Button onClick={handleNext} variant="outline" size="icon" className="rounded-full">
-          <ChevronRight className="h-6 w-6" />
-        </Button>
+          {/* Titre et description */}
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeItem.year}
+              variants={slideVariants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{ duration: 0.3 }}
+              className="text-center"
+            >
+              <h3 className="text-xs sm:text-sm font-semibold text-primary">{activeItem.title}</h3>
+              <p className="mt-1 text-[10px] sm:text-xs text-muted-foreground line-clamp-2">{activeItem.details[0]}</p>
+            </motion.div>
+          </AnimatePresence>
+
+          {/* Points indicateurs */}
+          <div className="flex gap-1 sm:gap-1.5 mt-3 sm:mt-4 flex-wrap justify-center">
+            {sortedItems.map((item, idx) => (
+              <button
+                key={item.year}
+                onClick={() => handleDotClick(idx)}
+                className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full transition-all ${
+                  idx === activeIndex 
+                    ? 'bg-primary w-3 sm:w-4' 
+                    : 'bg-muted-foreground/30 hover:bg-muted-foreground/50'
+                }`}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* Image droite cercle */}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={`right-${activeIndex}`}
+            variants={slideVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{ duration: 0.3 }}
+            className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full overflow-hidden border-2 border-primary/30 shadow-md flex-shrink-0"
+          >
+            <img
+              src={rightImage}
+              alt="Histoire APAP-K"
+              className="w-full h-full object-cover"
+            />
+          </motion.div>
+        </AnimatePresence>
       </div>
     </div>
   );

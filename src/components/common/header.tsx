@@ -10,6 +10,7 @@ import {
   Info,
   Menu,
   Mail,
+  Newspaper,
   Users,
 } from 'lucide-react';
 import { useState } from 'react';
@@ -29,6 +30,7 @@ const navLinks = [
   { href: '/', label: 'Accueil', icon: <Home /> },
   { href: '/about', label: 'Qui sommes-nous ?', icon: <Info /> },
   { href: '/projets', label: 'Nos Projets', icon: <Briefcase /> },
+  { href: '/actualites', label: 'Actualités', icon: <Newspaper /> },
   { href: '/partenaires', label: 'Partenaires', icon: <Users /> },
   { href: '/contact', label: 'Contact', icon: <Mail /> },
 ];

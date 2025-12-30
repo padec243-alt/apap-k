@@ -12,6 +12,7 @@ import {
   Disc,
   Calendar,
   User,
+  Newspaper,
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -28,6 +29,7 @@ import {
 } from '@/components/ui/card';
 import { Timeline } from '@/components/common/timeline';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { PartnersCarousel } from '@/components/common/partners-carousel';
 
 const bannerSlides = [
   {
@@ -132,6 +134,48 @@ export default function Home() {
   const festivalNgomaImage = 'https://res.cloudinary.com/dessrncgo/image/upload/v1766764526/apap-k/activites/festival-ngoma/Ngomo___103_.jpg';
 
   const currentSlide = bannerSlides[currentIndex];
+
+  // Actualités data
+  const actualites = [
+    {
+      id: 1,
+      title: "Lancement du projet d'accès à l'eau potable à Sangu",
+      date: "15 Déc 2024",
+      category: "Projets"
+    },
+    {
+      id: 2,
+      title: "Partenariat renforcé avec la Métropole de Lyon",
+      date: "28 Nov 2024",
+      category: "Partenariats"
+    },
+    {
+      id: 3,
+      title: "Formation agricole pour 50 familles au Kasaï",
+      date: "10 Nov 2024",
+      category: "Formation"
+    },
+    {
+      id: 4,
+      title: "Inauguration du centre de santé de Tshikapa",
+      date: "25 Oct 2024",
+      category: "Santé"
+    },
+    {
+      id: 5,
+      title: "Assemblée générale annuelle 2024",
+      date: "15 Sep 2024",
+      category: "Événements"
+    },
+    {
+      id: 6,
+      title: "Distribution de fournitures scolaires",
+      date: "1 Sep 2024",
+      category: "Éducation"
+    }
+  ];
+
+  const [isPaused, setIsPaused] = useState(false);
 
 
   return (
@@ -289,6 +333,64 @@ export default function Home() {
               </CardHeader>
             </Card>
           </div>
+        </div>
+      </section>
+
+      {/* Section Actualités défilante */}
+      <section className="py-8 sm:py-12 md:py-16 bg-muted overflow-hidden">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center gap-3">
+              <Newspaper className="h-6 w-6 sm:h-8 sm:w-8 text-primary" />
+              <h2 className="font-headline text-xl sm:text-2xl font-bold text-primary md:text-3xl">
+                Nos Actualités
+              </h2>
+            </div>
+            <Button asChild variant="outline" size="sm">
+              <Link href="/actualites">
+                Voir tout <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+          
+        <div 
+          className="relative w-full overflow-hidden"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+        >
+          <motion.div 
+            className="flex gap-4 w-max"
+            animate={{
+              x: isPaused ? undefined : [0, -1920],
+            }}
+            transition={{
+              x: {
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 30,
+                ease: "linear",
+              },
+            }}
+          >
+            {[...actualites, ...actualites, ...actualites].map((actu, index) => (
+              <Link 
+                key={`${actu.id}-${index}`}
+                href="/actualites"
+                className="flex-shrink-0 w-72 sm:w-80 bg-card rounded-lg border shadow-sm hover:shadow-md transition-shadow p-4 group"
+              >
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-2 py-1 text-xs font-medium bg-primary/10 text-primary rounded-full">
+                    {actu.category}
+                  </span>
+                  <span className="text-xs text-muted-foreground">{actu.date}</span>
+                </div>
+                <h3 className="font-semibold text-sm sm:text-base line-clamp-2 group-hover:text-primary transition-colors">
+                  {actu.title}
+                </h3>
+              </Link>
+            ))}
+          </motion.div>
         </div>
       </section>
 
@@ -466,6 +568,8 @@ export default function Home() {
           </Tabs>
         </div>
       </section>
+
+      <PartnersCarousel />
 
       <section className="bg-primary/5 py-8 sm:py-12 md:py-16 lg:py-24 text-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
